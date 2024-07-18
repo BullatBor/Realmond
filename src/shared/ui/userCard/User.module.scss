@@ -19,6 +19,8 @@
     font-weight: 600;
     display: flex;
     justify-content: center;
+    color: gray;
+    opacity: 0.9;
   }
 
   &__infoBlock {
@@ -39,7 +41,8 @@
   }
 
   &__info_title {
-    color: gray;
+    color: black;
+    opacity: 0.9;
     font-size: 18px;
   }
   &__info_value {
@@ -48,7 +51,6 @@
 }
 
 @media (max-width: 600px) {
-  /* Стили для экранов шириной до 768 пикселей */
   .wrapper {
     min-width: 280px;
     font-size: 12px;

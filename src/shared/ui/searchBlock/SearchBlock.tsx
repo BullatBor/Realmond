@@ -7,7 +7,7 @@ export const SearchBlock = () => {
   return (
     <div className={styles['wrapper']}>
       <input
-        type='text'
+        type={selectedOption === 'number' ? 'number' : 'text'}
         value={text}
         placeholder='Search'
         onChange={(e) => handleTextChange(e.target.value)}
