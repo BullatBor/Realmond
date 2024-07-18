@@ -44,6 +44,18 @@
   }
   &__info_value {
     font-weight: 400;
-    vertical-align: bottom;
+  }
+}
+
+@media (max-width: 600px) {
+  /* Стили для экранов шириной до 768 пикселей */
+  .wrapper {
+    min-width: 280px;
+    font-size: 12px;
+    font-weight: 400;
+
+    &__info_title {
+      font-size: 14px;
+    }
   }
 }

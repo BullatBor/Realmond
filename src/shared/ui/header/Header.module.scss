@@ -16,3 +16,21 @@
     font-weight: 600;
   }
 }
+
+@media (max-width: 600px) {
+  .wrapper {
+    justify-content: center;
+    align-items: center;
+
+    &__main {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    &__title {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

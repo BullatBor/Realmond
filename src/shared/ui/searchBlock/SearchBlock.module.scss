@@ -19,3 +19,14 @@
     outline: none;
   }
 }
+
+@media (max-width: 600px) {
+  .wrapper {
+    gap: 10px;
+    &__checkbox {
+      display: flex;
+      gap: 3px;
+      font-size: 14px;
+    }
+  }
+}
