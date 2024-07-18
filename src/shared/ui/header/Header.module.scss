@@ -1,0 +1,12 @@
+.wrapper {
+  display: flex;
+  background-color: beige;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 100px;
+
+  &__main {
+    display: flex;
+    width: 100%;
+  }
+}
