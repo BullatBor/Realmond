@@ -11,7 +11,7 @@ export const UsersBlock = () => {
       addUsers(users);
     };
     fetchUsers();
-  }, [addUsers]);
+  }, []);
   return (
     <div className={styles['wrapper']}>
       <div className={styles['wrapper__main']}>
